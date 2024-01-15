@@ -1,0 +1,131 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: white;
+  letter-spacing: 0.02em;
+}
+
+h2,
+h3 {
+  color: #2e2f42;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo-text {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.studio-header {
+  color: #2e2f42;
+}
+.studio-footer {
+  color: #f4f4fd;
+}
+
+
+.nav-text {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.nav-text:active,
+.nav-text:hover,
+.nav-text:focus {
+  color: #404bbf;
+}
+
+.contacts-text {
+  font-style: normal;
+}
+
+.contacts-text-item {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.contacts-text-item:hover,
+.contacts-text-item:focus {
+  color: #404bbf;
+}
+.footer-section {
+  background-color: #2e2f42;
+}
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+.website-title-section {
+  background-color: #2e2f42;
+}
+
+.team-section {
+  background-color: #f4f4fd;
+}
+.teammate-subsection {
+  background-color: white;
+}
+
+.website-title {
+  color: white;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+}
+
+.strengths-title,
+.teammate-name,
+.product-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.button-text {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  cursor: pointer;
+}
+.button-text:hover,
+.button-text:focus {
+  background-color: #404bbf;
+}
