@@ -34,11 +34,6 @@ ul {
   display: flex;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-}
-
 img {
   display: block;
 }
@@ -63,6 +58,9 @@ img {
   justify-content: space-between;
   margin: 0 auto;
   padding: 0 15px;
+  max-width: 1440px;
+  padding-left: 156px;
+  padding-right: 156px;
 
 }
 
@@ -82,12 +80,14 @@ img {
   color: #2e2f42;
 }
 
+.nav-nav {
+  display: flex;
+  align-items: center;
+}
+
 .nav-list {
   display: flex;
   gap: 40px;
-}
-.nav-item{
-  padding: 24px 0;
 }
 .nav-text {
   color: #2e2f42;
@@ -96,6 +96,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  padding: 24px 0;
+
 }
 
 .nav-text:active,
