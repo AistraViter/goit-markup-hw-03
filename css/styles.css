@@ -5,6 +5,16 @@ body {
   letter-spacing: 0.02em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
 h2,
 h3 {
   color: #2e2f42;
@@ -13,10 +23,36 @@ h3 {
 p {
   font-size: 16px;
   line-height: 1.5;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+}
+
+nav {
+  display: flex;
+
+}
+
+img {
+  display: block;
+}
+
+/*HEADER*/
+.header-section {
+  padding: 24px 0;
+}
+.header-container {
+  max-width: 1440px;
+  padding-left: 156px;
+  padding-right: 156px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo-text {
@@ -28,14 +64,18 @@ ul {
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
+  margin-right: 76px;
+
 }
 .studio-header {
   color: #2e2f42;
 }
-.studio-footer {
-  color: #f4f4fd;
-}
 
+.nav-list {
+  display: flex;
+  gap: 40px;
+
+}
 
 .nav-text {
   color: #2e2f42;
@@ -50,6 +90,10 @@ ul {
 .nav-text:hover,
 .nav-text:focus {
   color: #404bbf;
+}
+.contact-list {
+  display: flex;
+  gap: 40px;  
 }
 
 .contacts-text {
@@ -67,25 +111,23 @@ ul {
 .contacts-text-item:focus {
   color: #404bbf;
 }
-.footer-section {
-  background-color: #2e2f42;
-}
-.footer-text {
-  color: #f4f4fd;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: justify;
-}
+
+/*1 Website Title Section*/
+
 .website-title-section {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
-.team-section {
-  background-color: #f4f4fd;
+.website-title-container {
+  max-width: 1440px;
+  padding-left: 156px;
+  padding-right: 156px;
+  justify-content: center;
+
 }
-.teammate-subsection {
-  background-color: white;
-}
+
 
 .website-title {
   color: white;
@@ -94,24 +136,7 @@ ul {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-}
-
-.section-title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  text-transform: capitalize;
-  letter-spacing: 0.02em;
-}
-
-.strengths-title,
-.teammate-name,
-.product-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  margin-bottom: 48px;
 }
 
 .button-text {
@@ -124,8 +149,125 @@ ul {
   letter-spacing: 0.04em;
   text-align: center;
   cursor: pointer;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
+
 .button-text:hover,
 .button-text:focus {
   background-color: #404bbf;
 }
+
+/*2 Strength Section*/
+
+.strengths-section {
+  padding: 120px 0;
+}
+
+.container {
+  max-width: 1440px;
+  padding-left: 156px;
+  padding-right: 156px;
+  justify-content: center;
+
+}
+
+.our-strength-title {
+  display: none;
+}
+.strengths-list {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+
+}
+
+.strengths-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+/*3 Our Team Section*/
+
+.team-section {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.teammate-subsection {
+  background-color: white;
+}
+
+.teammate-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+}
+.teammate-role {
+  text-align: center;
+
+}
+
+
+/*4 Portfolio*/
+.portfolio-section {
+  padding: 120px 0;
+}
+
+.potfolio-list {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+}
+
+
+/*FOOTER*/
+
+.footer-section {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+.studio-footer {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+

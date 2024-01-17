@@ -5,6 +5,11 @@
     <meta charset="utf-8" />
     <meta name="description" content="Homework1" />
     <title>Homework1</title>
+    <link
+      rel="modern-normalize"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,11 +20,14 @@
   </head>
 
   <body>
-    <header>
+    <header class="header-section">
+      <div class="header-container"> 
       <nav>
-        <a href="./index.html" class="logo-text"> Web<span class="studio-header">Studio</span> </a>
+        <a href="./index.html" class="logo-text">
+          Web<span class="studio-header">Studio</span>
+        </a>
 
-        <ul>
+        <ul class="nav-list">
           <li>
             <a class="nav-text" href="./index.html">Studio </a>
           </li>
@@ -32,30 +40,38 @@
         </ul>
       </nav>
       <address class="contacts-text">
-        <ul>
+        <ul class="contact-list">
           <li>
-            <a class="contacts-text-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contacts-text-item" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a class="contacts-text-item" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="contacts-text-item" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
+    </div>
     </header>
 
     <main>
       <!-- Section 1-->
 
       <section class="website-title-section">
+        <div class="website-title-container"> 
         <h1 class="website-title">Effective Solutions for Your Business</h1>
         <button type="button" class="button-text">Order Service</button>
+      </div>
       </section>
 
       <!-- Section 2-->
 
-      <section>
-        <h2 class="section-title">Our Strengths</h2>
-        <ul>
+      <section class="strengths-section">
+        <div class="container"> 
+        <h2 class="our-strength-title">Our Strengths</h2>
+        <ul class="strengths-list">
           <li>
             <h3 class="strengths-title">Strategy</h3>
             <p class="strengths-description">
@@ -88,12 +104,14 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
 
-      <!-- Section 3-->
+      <!-- Section 3  Our Team  -->
       <section class="team-section">
+        <div class="container"> 
         <h2 class="section-title">Our Team</h2>
-        <ul>
+        <ul class="team-list">
           <li class="teammate-subsection">
             <img
               src="./images/team1.jpg"
@@ -130,12 +148,16 @@
             <p class="teammate-role">UI Designer</p>
           </li>
         </ul>
+      </div>
       </section>
 
-      <!-- Section 4-->
-      <section>
+
+
+      <!-- Section 4 Our Portfolio-->
+      <section class="portfolio-section">
+        <div class="container"> 
         <h2 class="section-title">Our Portfolio</h2>
-        <ul>
+        <ul class="potfolio-list">
           <li>
             <img src="./images/portfolio1.jpg" alt="Banking App" width="360" />
             <h3 class="product-name">Banking App</h3>
@@ -192,15 +214,20 @@
             <p class="product-description">Marketing</p>
           </li>
         </ul>
+      </div>
       </section>
     </main>
 
     <footer class="footer-section">
-      <a href="./index.html" class="logo-text"> Web<span class="studio-footer">Studio</span> </a>
+      <div class="container"> 
+      <a href="./index.html" class="logo-text">
+        Web<span class="studio-footer">Studio</span>
+      </a>
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+    </div>
     </footer>
   </body>
 </html>
