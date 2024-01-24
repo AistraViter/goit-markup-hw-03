@@ -38,26 +38,20 @@ img {
   display: block;
 }
 
-
 .container {
-  max-width: 1440px;
-  padding-left: 156px;
-  padding-right: 156px;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-
-
 
 /*HEADER*/
 .header-section {
-  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
-  width: 1158px;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
-  padding: 0 15px;
+  align-items: center;
 }
 
 .logo-text-header {
@@ -93,7 +87,7 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   padding: 24px 0;
-
+  display: block;
 }
 
 .nav-text:active,
@@ -130,7 +124,6 @@ img {
   padding-bottom: 188px;
 }
 
-
 .website-title {
   max-width: 496px;
   color: white;
@@ -139,7 +132,7 @@ img {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  margin: 188px 472px 48px 472px;
+  margin: 0 auto;
 }
 
 .button-text {
@@ -157,7 +150,8 @@ img {
   border: none;
   border-radius: 4px;
   display: block;
-  margin: 0 636px 188px 635px;
+  margin: 0 auto;
+  margin-top: 48px;
 }
 
 .button-text:hover,
@@ -266,7 +260,6 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-
 }
 
 .product-name {
@@ -307,4 +300,5 @@ img {
   font-size: 16px;
   line-height: 1.5;
   text-align: justify;
+  max-width: 264px;
 }
